@@ -18,9 +18,13 @@ gem "puma", "~> 5.0"
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 4.0"
 
-# TDD
+# TDD [ Test Driven Development ]
 gem "rspec-rails"
 gem "factory_bot_rails"
+
+# Serializers [ Help us changing the format of the returning data and manage attributes without any problem ]
+gem 'active_model_serializers'
+
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
