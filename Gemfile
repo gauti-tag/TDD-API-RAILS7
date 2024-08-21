@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.0.6"
+ruby "3.0.7"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
@@ -24,6 +24,9 @@ gem "factory_bot_rails"
 
 # Serializers [ Help us changing the format of the returning data and manage attributes without any problem ]
 gem 'active_model_serializers'
+
+# Pagination
+gem 'kaminari'
 
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
@@ -52,7 +55,7 @@ end
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
-  
+
   gem "binding_of_caller"
 end
 
