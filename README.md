@@ -46,3 +46,15 @@ docker-compose build --no-cache
 ```bash
 docker-compose up
 ```
+
+### How to generate serializer file automatically
+- rails g serializer article title content slug
+
+### Configure serializer
+- touch config/initializers/active_model_serializers.rb
+
+### Pagination [ Install gem kaminari ]
+### Github communication [ Install gem octokit ]
+
+## Create User model
+- rails g model user login name url avatar_url provider
