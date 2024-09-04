@@ -26,7 +26,10 @@ gem "factory_bot_rails"
 gem 'active_model_serializers'
 
 # Pagination
-gem 'kaminari'
+gem "kaminari", "~> 1.2.2"
+
+# Github communication
+gem 'octokit', "~> 4.0"
 
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
